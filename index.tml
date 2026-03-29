@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 2 - DOM Final</title>
+</head>
+<body>
+    <h1>DOM: Página Interativa com JavaScript</h1>
+
+   
+    <button id="btnIncrementar">Incrementar</button>
+    <button id="btnDecrementar">Decrementar</button>
+    <p id="valorContador">0</p>
+
+    <br>
+
+   
+    <input type="text" id="campoTexto" placeholder="Digite algo...">
+    <p><span id="numCaracteres">0</span> caracteres</p>
+    
+   
+    <div id="containerParagrafos"></div>
+
+    <br><hr>
+
+  
+    <span>Escolha o tipo de lista:</span>
+    <select id="tipoLista">
+        <option value="ul">Lista Não Ordenada</option>
+        <option value="ol">Lista Ordenada</option>
+    </select>
+    <button id="btnAdicionarLista">Adicionar Lista</button>
+    
+    <div id="containerListas"></div>
+
+    <br><hr>
+
+
+    <button id="btnReset">Resetar Tudo</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
