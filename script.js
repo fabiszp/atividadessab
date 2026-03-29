@@ -13,7 +13,6 @@ let containerListas = document.getElementById("containerListas");
 
 let btnReset = document.getElementById("btnReset");
 
-
 let contador = 0;
 
 btnIncrementar.onclick = function() {
@@ -37,7 +36,6 @@ campoTexto.oninput = function() {
     numCaracteres.textContent = semEspaco.length;
 };
 
-
 campoTexto.onkeydown = function(event) {
     if (event.key === "Enter") {
 
@@ -56,9 +54,7 @@ btnAdicionarLista.onclick = function() {
     let tag = tipoLista.value; 
     let novaLista = document.createElement(tag); 
     
- 
     let itens = ["Item 1", "Item 2", "Item 3"];
-    
    
     for (let i = 0; i < itens.length; i++) {
         let li = document.createElement("li");
@@ -66,19 +62,16 @@ btnAdicionarLista.onclick = function() {
         novaLista.append(li); 
     }
     
-    
     containerListas.append(novaLista);
 };
 
 btnReset.onclick = function() {
     
     contador = 0;
-    
 
     valorContador.textContent = "0";
     campoTexto.value = "";
     numCaracteres.textContent = "0";
-    
 
     containerParagrafos.innerHTML = "";
     containerListas.innerHTML = "";
