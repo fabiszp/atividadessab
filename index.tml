@@ -6,23 +6,19 @@
 </head>
 <body>
     <h1>DOM: Página Interativa com JavaScript</h1>
-
    
     <button id="btnIncrementar">Incrementar</button>
     <button id="btnDecrementar">Decrementar</button>
     <p id="valorContador">0</p>
 
     <br>
-
    
     <input type="text" id="campoTexto" placeholder="Digite algo...">
     <p><span id="numCaracteres">0</span> caracteres</p>
     
-   
     <div id="containerParagrafos"></div>
 
     <br><hr>
-
   
     <span>Escolha o tipo de lista:</span>
     <select id="tipoLista">
